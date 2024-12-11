@@ -1,0 +1,20 @@
+{
+    "name": "Temperature Converter",
+    "version": "1.0.0",
+    "description": "A simple temperature converter app using NW.js",
+    "main": "index.html",
+    "scripts": {
+      "start": "nw ."
+    },
+    "window": {
+      "title": "Temperature Converter",
+      "width": 500,
+      "height": 600,
+      "toolbar": false,
+      "resizable": true
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "license": "MIT"
+  }
+  

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>🌡️ Temperature Converter</h1>
+      <p>Convert temperatures between Celsius, Fahrenheit, Kelvin, and Reamur.</p>
+      <div class="input-group">
+        <input type="number" id="inputTemp" placeholder="Enter temperature..." />
+        <select id="fromUnit">
+          <option value="C">Celsius</option>
+          <option value="F">Fahrenheit</option>
+          <option value="K">Kelvin</option>
+          <option value="R">Reamur</option>
+        </select>
+      </div>
+      <div class="arrow">⇄</div>
+      <div class="input-group">
+        <input type="text" id="outputTemp" readonly placeholder="Result" />
+        <select id="toUnit">
+          <option value="C">Celsius</option>
+          <option value="F">Fahrenheit</option>
+          <option value="K">Kelvin</option>
+          <option value="R">Reamur</option>
+        </select>
+      </div>
+      <button id="convertBtn">Convert</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
